@@ -7,6 +7,14 @@ class RedirectSubscriber implements EventSubscriberInterface {
 
   /**
    * Is there any new updates from my git repo? Also is daily update possible?
+   * I need to send blue assets (new model, not an old model) to repo, and trying to make it happen.
+   * Is there any way for my repo to update you directly if it gets them with quantity, so that you can update me directly?
+   *
+   * If so, ask repo to receive assets with sibling repo, and just update you when it gets, not through wifi repo.
+   * It's not confirmed when assets will be sent though.
+   *
+   * Please let me know if you understand what I am talking about.
+   *
    */
   public function redirectRequest(RequestEvent $event) {
 
