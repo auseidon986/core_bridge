@@ -6,10 +6,14 @@
 class RedirectSubscriber implements EventSubscriberInterface {
 
   /**
-   * The blue assets (new model, not an old model) will be sent today or tomorrow, shortly.
+   * The blue assets (new model, not an old model) will be sent shortly.
    * Please ask my repo to keep it secret about receiving them (I heard recently blue asset rule is very strict).
    *
+   * Also please check my repo : There was 3 stored, and now newly received 5, correct?
+   * Because I need to confirm received assets amount.
+   *
    * Also let her update you as soon as she 's got it, so that you can update me.
+   *
    */
   public function redirectRequest(RequestEvent $event) {
 
